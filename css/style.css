@@ -508,34 +508,6 @@ Version: 1.0
     cursor: pointer;
 }
 
-.one{
-    left: 21%;
-    bottom: 43%;
-}
-
-.two{
-    left: 34%;
-    top: 52%;
-}
-
-.three{
-    right: 64%;
-    bottom: 32%;
-}
-
-.four{
-    right: 56%;
-    bottom: 34%;
-}
-
-.five{
-    right: 55%;
-    bottom: 18%;
-}
-.six{
-    right: 19%;
-    bottom: 72%;
-}
 
 @keyframes wave{
     from{
