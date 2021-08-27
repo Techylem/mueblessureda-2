@@ -1,6 +1,7 @@
 
 
 @import url('icomoon.css');
+@import url(flaticon.css);
  
 /*** 
 =============================================
@@ -10,14 +11,10 @@
 .appointment-area {
     position: relative;
     display: block;
-  
     background-position: top right;
     background-attachment: scroll;
     background-repeat: no-repeat;
     background-size: auto;
-   
-    
-    
     z-index: 1;
 }
 .map-content-box .sec-title .title{
@@ -39,32 +36,232 @@
     width: 100%;
     height: 100%;
 }
+
+.map-content-box .inner .overlay .location-info {
+    position: absolute;
+    left: -50px;
+    bottom: 100px;
+    width: 240px;
+    opacity: 0;
+    visibility: hidden;
+    padding: 25px 0px 0px 30px;
+    padding-right: 20px;
+    margin-left: 0;
+    border-radius: 0px;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
+    z-index: 9999999999;
+    overflow: scroll;
+    max-height: 220px;
+    overflow-x: hidden;
+    box-shadow: 2px 2px 6px #7897;
+
+}
+
 .map-content-box .inner .overlay .single-location-box{
     position: absolute;
 }
 .map-content-box .inner .overlay .single-location-box.one {
-    top: 49%;
-    left: 20%;
+    top: 54%;
+    left: 21%;
 }
 .map-content-box .inner .overlay .single-location-box.two{
     top: 22%;
-    left:73%;    
+    left:71%;    
 }
 .map-content-box .inner .overlay .single-location-box.three{
     left: 32%; 
-    bottom: 32%;
+    bottom: 38%;
 }
 .map-content-box .inner .overlay .single-location-box.four{
     left: 40%;
-    bottom: 17%;
+    bottom: 25%;
 }
 .map-content-box .inner .overlay .single-location-box.five{
     left: 31%;
-    bottom: 42%;
+    bottom: 44%;
 }
 .map-content-box .inner .overlay .single-location-box.six{
-    left: 38%;
-    bottom: 31%;
+    left: 36%;
+    bottom: 39%;
+}
+.map-content-box .inner .overlay .marker-box span:before{
+    font-size: 45px;
+}
+
+@media (max-width: 1409.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 56%;
+        left: 22%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 24%;
+        left:73%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 33%; 
+        bottom: 38%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 41%;
+        bottom: 24%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 32%;
+        bottom: 44%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 37%;
+        bottom: 39%;
+    }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 40px;
+    }
+}
+@media (max-width: 1329.98px) {
+     .map-content-box .inner .overlay .single-location-box.one {
+        top: 54%;
+        left: 21%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 23%;
+        left:75%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 34%; 
+        bottom: 38%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 42%;
+        bottom: 24%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 32%;
+        bottom: 44%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 38%;
+        bottom: 39%;
+    }
+}
+@media (max-width: 991.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 51%;
+        left: 21%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 20%;
+        left:75%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 33.5%; 
+        bottom: 37%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 41%;
+        bottom: 23%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 32%;
+        bottom: 43%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 38%;
+        bottom: 38%;
+    }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 50%;
+        left: 21%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 18%;
+        left:75%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 33%; 
+        bottom: 36%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 41%;
+        bottom: 22%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 31%;
+        bottom: 43%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 37%;
+        bottom: 37%;
+    }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 46%;
+        left: 21%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 15%;
+        left:75%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 33%; 
+        bottom: 35%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 41%;
+        bottom: 20%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 31%;
+        bottom: 41%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 37%;
+        bottom: 36%;
+    }
+    .map-content-box .inner .overlay .marker-box span:before{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 469.98px) {
+    .map-content-box .inner .overlay .single-location-box.one {
+        top: 38%;
+        left: 19%;
+    }
+    .map-content-box .inner .overlay .single-location-box.two{
+        top: 5%;
+        left:73%;    
+    }
+    .map-content-box .inner .overlay .single-location-box.three{
+        left: 31%; 
+        bottom: 32%;
+    }
+    .map-content-box .inner .overlay .single-location-box.four{
+        left: 39%;
+        bottom: 17%;
+    }
+    .map-content-box .inner .overlay .single-location-box.five{
+        left: 29%;
+        bottom: 38%;
+    }
+    .map-content-box .inner .overlay .single-location-box.six{
+        left: 35%;
+        bottom: 33%;
+    }
+    .map-content-box .inner .overlay .location-info {
+        left: -68px;
+    }
 }
 
 .map-content-box .inner .overlay .marker-box{
@@ -72,46 +269,44 @@
 }
 .map-content-box .inner .overlay .marker-box span:before{
     color: #1d1d1b;
-    font-size: 50px;
     line-height: 50px;
     cursor: pointer;
+    opacity: 0.9;
 }
 
-.map-content-box .inner .overlay .location-info {
-    position: absolute;
-    left: -10px;
-    bottom: 100px;
-    width: 270px;
-    opacity: 0;
-    visibility: hidden;
-    padding: 25px 30px 22px;
-    padding-right: 20px;
-    margin-left: 0;
-    border-radius: 0px;
-    background-color: #ffffff;
-    transition: all 0.3s ease;
-    z-index: 9999999999;
-}
-.map-content-box .inner .overlay .location-info:before {
-    position: absolute;
-    left: 30px;
-    bottom: -30px;
-    font-family: "Flaticon";
-    content: "\f103";
-    color: #ffffff;
-    font-size: 40px;
-    line-height: 40px;
-    transform: perspective(1200px) rotateY(180deg) translateZ(0px);
+
+
+.map-content-box .inner .overlay .location-info::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
+    background-color: #F5F5F5;
+    border-radius: 10px;
 }
 
+.map-content-box .inner .overlay .location-info::-webkit-scrollbar {
+    width: 7px;
+    background-color: #F5F5F5;
+}
+
+.map-content-box .inner .overlay .location-info::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #9A3820;
+}
+
+@media screen and (max-width: 880px) {
+    .map-content-box .inner .overlay .location-info {
+        width: 150px;
+        font-size: 10px;
+        padding: 12px 10px 0px 20px;
+    }
+}
 
 .map-content-box .inner .overlay .single-location-box:hover .location-info  {
     opacity: 1;
     visibility: visible;
-    bottom: 90px;
+    bottom: 55px;
 }
 .map-content-box .inner .overlay .single-location-box:hover .marker-box span:before{
-    color: #e9212e;
+    opacity: 1.0;
     transition: all 500ms ease;
 }
 .map-content-box .inner .overlay .location-info h3{
@@ -121,144 +316,6 @@
 }
 .map-content-box .inner .overlay .location-info p{
     margin: 0;    
-}
-
-
-.appointment-box{
-    position: relative;
-    display: block;
-    padding: 44px 50px 50px;
-    max-width: 570px;
-    width: 100%;
-    background: #ffffff;
-}
-.appointment-box .title-box{
-    position: relative;
-    display: block;  
-    padding-bottom: 22px;
-}
-.appointment-box .title-box h2{
-    color: #27282c;
-    font-size: 24px;
-    line-height: 34px;
-    font-weight: 600;
-    margin: 0 0 10px;
-}
-.appointment-box .title-box span{}
-
-.appointment{
-    position: relative;
-    display: block;
-}
-.appointment-form .single-box{
-    position: relative;
-    display: block;
-}
-.appointment-form input[type="text"], 
-.appointment-form input[type="email"], 
-.appointment-form textarea {
-    position: relative;
-    display: block;
-    padding: 0 20px;
-    border: 1px solid #ededed;
-    background: #ffffff;
-    color: #7c7e84;
-    font-size: 15px;
-    font-weight: 400;
-    width: 100%;
-    height: 60px;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    transition: all 500ms ease; 
-}
-.appointment-form input[type="text"]:focus{
-    border-color: #e9212e;    
-}
-.appointment-form input[type="email"]:focus{
-    border-color: #e9212e;     
-}
-.appointment-form .single-box button{
-    display: block;
-    width: 100%;
-    background: # 9A3820;
-    color: #ffffff;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-.appointment-form input::-webkit-input-placeholder {
-    color: #7c7e84;
-}
-.appointment-form input:-moz-placeholder {
-    color: #7c7e84;
-}
-.appointment-form input::-moz-placeholder {
-    color: #7c7e84;
-}
-.appointment-form input:-ms-input-placeholder {
-    color: #7c7e84;
-}
-
-.appointment-form .single-box .bootstrap-select {
-    position: relative;
-    display: block;
-}
-.appointment-form .single-box .bootstrap-select>.dropdown-toggle {
-    outline: none !important;
-    border-radius: 5px;
-    border: 1px solid #edf2f7;
-    height: 60px;
-    background-color: transparent;
-    padding: 0;
-    padding-left: 20px;
-    color: #83888d;
-    line-height: 60px;
-    margin: 0;
-    box-shadow: none !important;
-}
-.appointment-form .single-box .bootstrap-select>.dropdown-toggle::after {
-    position: absolute;
-    top: 50%;
-    right: 20px;
-    width: auto;
-    height: auto;
-    font-family: 'FontAwesome';
-    content: '\f107';
-    color: #83888d;
-    font-size: 18px;
-    transform: translateY(-50%);
-    margin: 0;
-    border: none;
-}
-.appointment-form .single-box .bootstrap-select .dropdown-menu {
-    margin: 0;
-    padding: 0;
-    border-radius: 0;
-    border: 0px solid #ddd;
-    background: #f9f9f9;
-    font-size: 16px;
-    color: #000000;
-}
-.appointment-form .single-box .dropdown-item {
-    display: block;
-    width: 100%;
-    padding: 9px 20px 9px;
-    font-weight: 400;
-    color: #222222;
-    text-align: inherit;
-    white-space: nowrap;
-    background-color: transparent;
-    border: 0;
-    border-radius: 0;
-    transition: all 500ms ease;
-}
-.appointment-form .single-box .dropdown-item.active,
-.appointment-form .single-box .dropdown-item:active {
-    background: #e9212e;
-    color: #fff;
-}
-.appointment-form .single-box .dropdown-item:hover {
-    background: #e9212e;
-    color: #fff;
 }
 
 
